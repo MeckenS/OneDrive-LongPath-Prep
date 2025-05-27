@@ -1,0 +1,35 @@
+# PowerShell and Windows specific files
+*.ps1xml
+*.nuspec
+*.nupkg
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Log files
+*.log
+
+# Test outputs and reports (you may want to customize this)
+TestResults/
+Reports/
+*.csv
+
+# IDE specific files
+.vscode/
+*.code-workspace
+
+# PowerShell Gallery publish artifacts
+publish/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
