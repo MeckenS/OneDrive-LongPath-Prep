@@ -1,4 +1,4 @@
-# FolderRedirectionPaths
+# ScanFolderRedirectionPaths
 
 ## Description
 PowerShell module designed to scan user folders located in a network file share using Folder Redirection. This can assist when migrating user files from Folder Redirection to OneDrive and find any paths that would exceed the 247 path limit imposed on the OneDrive desktop client.
@@ -16,6 +16,7 @@ PowerShell module designed to scan user folders located in a network file share 
 ### Show summary of multiple users.
 > [!NOTE]
 > Remove `-UserName` parameter to scan all users.
+
 > [!WARNING]
 > This could take a long time depending on the amount of users.
 ```powershell
